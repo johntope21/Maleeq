@@ -1,2 +1,0 @@
-# Maleeq
-Front-End Developer
