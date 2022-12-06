@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #F5F5F7;
+    height: 100vh;
+    width: 100%;;
+}
+.text1 p{
+    font-size: small;
+    text-align: center;
+    opacity: 0.5;
+}
+.text1 h2{
+    text-align: center;
+}
+.b1 button{
+    height: 5vh;
+    width: 105%;
+    border-radius: 15px;
+    background-color: #3ABFA9;
+    color: white;
+    border-color: #3ABFA9;
+}
+.b2 button{
+    height: 5vh;
+    width: 105%;
+    border-radius: 15px;
+    background-color: #596FF6;
+    color: white;
+    border-color: #596FF6;
+}
+.buttonA{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+    
+}
+.text2 p{
+    font-size: small;
+    text-align: center;
+    opacity: 0.5;
+}
+.text2 h2{
+    text-align: center;
+    margin-top: 70px;
+}
+.copydiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text1{
+    line-height: 1.0;
+}
+.text2{
+    line-height: 1.0;
+}
+.picture1 img{
+    height: 55vh;
+    width: 100%;
+    margin-top: 35px;
+    margin-left: -50px;
+}
+.firsttext p{
+    font-size: small;
+    opacity: 0.5;
+}
+.secondtext p{
+    font-size: small;
+    opacity: 0.5;
+}
+.thirdtext p{
+    font-size: small;
+    opacity: 0.5;
+}
+.mtextdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.imagebesidetext{
+    display: flex;
+    justify-content: center;
+}
+.middletext p{
+    font-size: small;
+    opacity: 0.5;
+    text-align: center;
+}
+.middletext h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.picture2 img{
+    height: 50vh;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+.anothertext p{
+    font-size: small;
+    opacity: 0.5;
+    text-align: center;
+}
+.anothertext h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.blacklist p{
+    font-size: small;
+    opacity: 0.5;
+}
+.plain p{
+    font-size: small;
+    opacity: 0.5;
+}
+.sneak p{
+    font-size: small;
+    opacity: 0.5;
+}
+.last3text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.blacklist{
+    text-align: center;
+    line-height: 1.5;
+}
+.plain{
+    text-align: center;
+    line-height: 1.5;
+}
+.sneak{
+    text-align: center;
+    line-height: 1.5;
+}
+.pic1 img{
+    height: 5vh;
+    width: 80%;
+}
+.pic2 img{
+    height: 5vh;
+    width: 80%;
+}
+.pic3 img{
+    height: 5vh;
+    width: 80%;
+}
+.pic4 img{
+    height: 5vh;
+    width: 80%;
+}
+.pic5 img{
+    height: 5vh;
+    width: 80%;
+}
+.parentdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.moretext p{
+    font-size: small;
+    opacity: 0.5;
+    text-align: center;
+}
+.moretext h3{
+    text-align: center;
+    margin-top: 100px;
+}
+.b3 button{
+    height: 5vh;
+    width: 105%;
+    border-radius: 15px;
+    background-color: #3ABFA9;
+    color: white;
+    border-color: #3ABFA9;
+}
+.b4 button{
+    height: 5vh;
+    width: 105%;
+    border-radius: 15px;
+    background-color: #596FF6;
+    color: white;
+    border-color: #596FF6;
+}
+.buttonB{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+.lastb{
+    background-color: #F0F0F0;
+    height: 15vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    gap: 55px;
+    
+}
+.lastlogo img{
+    height: 8vh;
+    width: 55%;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+.faq h6{
+    opacity: 0.5;
+    line-height: 0.6;
+    margin-top: 20px;
+}
+.privacy1 h6{
+    opacity: 0.5;
+    line-height: 0.6;
+    margin-top: 20px;
+}
+.install h6{
+    opacity: 0.5;
+    /* line-height: 1.1; */
+    margin-top: 20px;
+}
+
+.majorG{
+    display: flex;
+    gap: 20px;
+    margin-left: 550px;
+    margin-top: 20px;
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(310, 45%, 44%);
+  }
+
+  @media only screen and (max-width:950px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
