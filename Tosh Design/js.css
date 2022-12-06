@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+}
+#box1{
+    background-color: red;
+    width: 30%;
+    height: 50vh;
+    border-radius: 100%;
+}
