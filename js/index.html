@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Tutorial</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body> 
+    
+        <section>
+            <div class="big">
+                <div id="scroll-container">
+                <div id="scroll-text"><h1>Can You Tell Me Your Year Of Birth and I Will Tell You, How Old You Are Curently</h1></div>
+                </div>
+                <input type="number" id="user" placeholder="Enter Your Year of Birth">
+                 <button onclick="me()">GET</button>
+            </div>
+        
+           
+            <div>
+        <script>
+    
+    
+        function me(){
+            let userEntered = document.getElementById("user").value;
+            // alert(userEntered);
+    
+            let age = (2022 - userEntered);
+            alert("Your age is " + age);
+    
+        }
+            // let user = Number(prompt("Enter your year of birth"));
+            
+            
+            
+        </script>
+            </div>
+        </section>
+    
+        
+    
+</body>
+</html>
